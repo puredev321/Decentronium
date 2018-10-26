@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Decentronium
+Comment=Decentronium P2P Cryptocurrency
+Comment[fr]=Decentronium, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Decentronium, eşten eşe kriptografik sanal para birimi
+Exec=decentronium-qt %u
+Terminal=false
+Type=Application
+Icon=decentronium128
+MimeType=x-scheme-handler/decentronium;
+Categories=Office;Finance;

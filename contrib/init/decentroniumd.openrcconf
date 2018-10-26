@@ -1,0 +1,26 @@
+# /etc/conf.d/decentroniumd: config file for /etc/init.d/decentroniumd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/decentronium/decentronium.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/decentroniumd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/decentroniumd.pid"
+
+# Where to write decentroniumd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/decentroniumd"
+
+# User and group to own decentroniumd process
+#BITCOIND_USER="decentronium"
+#BITCOIND_GROUP="decentronium"
+
+# Path to decentroniumd executable
+#BITCOIND_BIN="/usr/bin/decentroniumd"
+
+# Nice value to run decentroniumd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
